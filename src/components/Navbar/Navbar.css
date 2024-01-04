@@ -1,0 +1,47 @@
+:root {
+  --red-color: #ef403d;
+}
+.nav {
+  /* background-color: inherit !important; */
+  color: #fff !important;
+  z-index: 3;
+  opacity: 0.85;
+  width: 100%;
+  background: rgb(59, 37, 37);
+  background: linear-gradient(120deg, rgba(59, 37, 37, 1) 0%, rgba(52, 53, 57, 1) 35%, rgba(26, 26, 36, 1) 100%);
+}
+.navbar-brand {
+  width: 50px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button[className='navbar-toggler']:active,
+button[className='navbar-toggler']:focus {
+  box-shadow: none !important;
+}
+
+.nav-link {
+  color: inherit;
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  /* color: #33d; */
+  color: var(--red-color);
+}
+.navbar-toggler {
+  transition: transform 0.2s ease;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none;
+}
+.navbar-toggler:active {
+  transform: scale(0.9);
+}

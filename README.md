@@ -1,2 +1,2 @@
-# gym-website
-Made with ReactJS
+# Gym-website
+This was made with ReactJS.

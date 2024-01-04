@@ -1,0 +1,16 @@
+.App {
+  /* text-align: center; */
+  transition: background-color 0.2s ease, color 0.2s ease;
+  min-height: 150vh;
+}
+.light {
+  background-color: #f8f8f8;
+  color: #232323;
+}
+.dark {
+  background-color: #1f1e28;
+  /* Or */
+  /* This one looks pretty */
+  /* background-color: #1a1d24; */
+  color: #fff;
+}

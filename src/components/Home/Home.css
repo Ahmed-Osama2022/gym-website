@@ -1,0 +1,26 @@
+.home-wrapper {
+  min-height: 120vh;
+  overflow: hidden;
+  /* z-index: -5; */
+  background: rgb(59, 37, 37);
+  background: linear-gradient(120deg, rgba(59, 37, 37, 1) 0%, rgba(52, 53, 57, 1) 35%, rgba(26, 26, 36, 1) 100%);
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* box-shadow: 0 0 4px 0 #ef403d; */
+  /* aspect-ratio: 9/16; */
+  aspect-ratio: unset;
+  /* filter: brightness(0.85) grayscale(0.35); */
+  filter: brightness(0.85) drop-shadow(0 0 1px);
+}
+.banner {
+  top: 20%;
+  /* z-index: 100; */
+
+  /* left: 5%; */
+}
+.banner .first-col {
+  text-shadow: 1px 1px 10px #232323;
+}

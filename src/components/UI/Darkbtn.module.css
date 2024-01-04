@@ -1,0 +1,15 @@
+.dark-btn {
+  width: 45px;
+  height: 35px;
+  overflow: hidden;
+  box-shadow: none !important;
+  transition: transform 0.2s ease;
+  background-color: #ef403d;
+}
+.dark-btn:active {
+  transform: scale(0.9);
+}
+.dark-btn img {
+  height: 100%;
+  width: 100%;
+}

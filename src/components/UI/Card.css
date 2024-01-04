@@ -1,0 +1,10 @@
+.program-card {
+  height: 40vh;
+  border-radius: 8px;
+}
+.my-shadow-dark {
+  box-shadow: 0 0 10px 0 #dc3d45;
+}
+.my-shadow-light {
+  box-shadow: 0 0 10px 0 rgba(35, 35, 35, 0.35);
+}
