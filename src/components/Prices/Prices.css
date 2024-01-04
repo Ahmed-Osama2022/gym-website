@@ -1,0 +1,11 @@
+.card {
+  background-color: unset !important;
+  color: unset !important;
+}
+.price {
+  color: #dc3d45;
+}
+.price-card {
+  /* background-color: #dc3d45 !important; */
+  transform: scale(1.1);
+}

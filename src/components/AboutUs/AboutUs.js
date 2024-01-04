@@ -36,7 +36,7 @@ const AboutUs = () => {
               </p>
               <div className="text-center text-md-start">
                 <a href="#">
-                  <Button type="button" className="btn btn-primary ">
+                  <Button type="button" className="btn btn-danger ">
                     Learn More
                   </Button>
                 </a>

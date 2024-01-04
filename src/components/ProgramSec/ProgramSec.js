@@ -45,7 +45,12 @@ const ProgramSec = (props) => {
           <div className="row gap-3 mt-5  ">
             {myProgramsData.map((program) => {
               return (
-                <Card title={program.title} description={program.description} isDarkHandler={props.darkModeHandler} />
+                <Card
+                  key={program.id}
+                  title={program.title}
+                  description={program.description}
+                  isDarkHandler={props.darkModeHandler}
+                />
               );
             })}
           </div>

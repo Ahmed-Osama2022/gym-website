@@ -19,7 +19,7 @@ const Home = () => {
                 We are alaways there to help you to amke a healthy body and mind through the power of fitness
               </div>
               <div className="text-center text-md-start">
-                <Button className="text-capitalize">Get statrted</Button>
+                <Button className="text-capitalize btn-danger">Get statrted</Button>
                 <span className="mx-4 ">
                   <a href="#" className="text text-decoration-underline text-reset ">
                     Learn more
