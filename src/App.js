@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import sunImg from './assets/sun.png';
@@ -9,6 +8,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import ProgramSec from './components/ProgramSec/ProgramSec';
 import Prices from './components/Prices/Prices';
 import Footer from './components/UI/Footer';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   // const [isDark, setIsDark] = useState(false);
@@ -45,6 +45,11 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id="contact">
+          <ContactForm />
+        </section>
+
         <Footer />
       </div>
     </>

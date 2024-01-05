@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             {/* <div className="col-6 col-md-4 bg-black d-none d-md-block  ">  */}
             <div className="col-6 col-md-4 ">
-              <img src={coachImg} className="img-fluid rounded-3 " alt="coach-image" />
+              <img src={coachImg} className="img-fluid rounded-3 " alt="img" />
             </div>
           </div>
         </div>

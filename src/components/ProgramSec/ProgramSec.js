@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../UI/Card';
+import './ProgramSec.css';
 // import
 const ProgramSec = (props) => {
   const myProgramsData = [
@@ -17,6 +18,8 @@ const ProgramSec = (props) => {
       id: Math.random().toString(),
       title: 'Body building',
       description: 'For those who are looking for increase the strength & lean muscle',
+      className: 'bg-danger active-program',
+      paragraphClassName: 'mt-3 px-3',
     },
     {
       id: Math.random().toString(),
@@ -42,14 +45,16 @@ const ProgramSec = (props) => {
           </div>
 
           {/* The second grid */}
-          <div className="row gap-3 mt-5  ">
+          <div className="row mt-5  ">
             {myProgramsData.map((program) => {
               return (
                 <Card
                   key={program.id}
+                  className={program.className || ''}
                   title={program.title}
                   description={program.description}
                   isDarkHandler={props.darkModeHandler}
+                  paragraphClassName={program.paragraphClassName}
                 />
               );
             })}

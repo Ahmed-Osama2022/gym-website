@@ -5,7 +5,7 @@ const Footer = () => {
   const date = new Date();
   return (
     <>
-      <footer className="bd-footer py-5 mt-5 bg-light">
+      <footer className="bd-footer py-5 mt-5 border-top border-danger border-1">
         <div className="container py-5">
           <div className="row">
             <div className="col-lg-3 mb-3">
@@ -45,82 +45,115 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-6 col-lg-2 offset-lg-1 mb-3">
-              <h5>Links</h5>
+              <h5 className="text-danger">Links</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="#home">Home</a>
+                  <a href="#home" className="nav-link p-0">
+                    Home
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#about-us">About-Us</a>
+                  <a href="#about-us" className="nav-link p-0">
+                    About-Us
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#program">Program</a>
+                  <a href="#why-us" className="nav-link p-0">
+                    Why Us?
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#prices">Prices</a>
+                  <a href="#program" className="nav-link p-0">
+                    Program
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#contact">Contact Us</a>
+                  <a href="#prices" className="nav-link p-0">
+                    Prices
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#why-us">Why Us?</a>
+                  <a href="#contact" className="nav-link p-0">
+                    Contact Us
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
-              <h5>Guides</h5>
+              <h5 className="text-danger">Guides</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="/docs/5.1/getting-started/">Getting started</a>
+                  <a href="#" className="nav-link p-0">
+                    Getting started
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.1/examples/starter-template/">Starter template</a>
+                  <a href="#" className="nav-link p-0">
+                    Meet your online coach
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.1/getting-started/webpack/">Webpack</a>
+                  <a href="#" className="nav-link p-0">
+                    Text us on whatsapp
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/docs/5.1/getting-started/parcel/">Parcel</a>
+                  <a href="#" className="nav-link p-0">
+                    See our location
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
-              <h5>Projects</h5>
+              <h5 className="text-danger">Our Coaches</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/bootstrap">Bootstrap 5</a>
+                  <a href="#" className="nav-link p-0">
+                    Ashraf Mohammed
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a>
+                  <a href="#">Mostafa Ali</a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/icons">Icons</a>
+                  <a href="#" className="nav-link p-0">
+                    Mohammed Amr
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/rfs">RFS</a>
+                  <a href="#" className="nav-link p-0">
+                    Amr Mostafa
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a>
+                  <a href="#" className="nav-link p-0">
+                    Ahmed Zaher
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="col-6 col-lg-2 mb-3">
-              <h5>Community</h5>
+              <h5 className="text-danger">Community</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/bootstrap/issues">Issues</a>
+                  <a href="#" className="nav-link p-0">
+                    Issues
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/twbs/bootstrap/discussions">Discussions</a>
+                  <a href="#" className="nav-link p-0">
+                    Discussions
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://github.com/sponsors/twbs">Corporate sponsors</a>
+                  <a href="#" className="nav-link p-0">
+                    Corporate sponsors
+                  </a>
                 </li>
                 <li className="mb-2">
-                  <a href="https://opencollective.com/bootstrap">Open Collective</a>
-                </li>
-                <li className="mb-2">
-                  <a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a>
+                  <a href="#" className="nav-link p-0">
+                    Open Collective
+                  </a>
                 </li>
               </ul>
             </div>
