@@ -114,7 +114,7 @@ const ContactForm = () => {
               </div>
 
               <div className="my-4  text-center ">
-                <button type="submit" className="btn btn-secondary">
+                <button type="submit" className="btn btn-danger">
                   Send
                 </button>
               </div>
