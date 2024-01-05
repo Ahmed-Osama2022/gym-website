@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import AboutUs from './components/AboutUs/AboutUs';
 import ProgramSec from './components/ProgramSec/ProgramSec';
 import Prices from './components/Prices/Prices';
+import Footer from './components/UI/Footer';
 
 function App() {
   // const [isDark, setIsDark] = useState(false);
@@ -44,24 +45,8 @@ function App() {
             </div>
           </div>
         </section>
+        <Footer />
       </div>
-      {/* <!-- 2 --> */}
-      {/* <div className="col-9 col-lg-4">
-                  <div className="card border-primary border-2">
-                    <div className="card-header text-center text-primary">Most Popular</div>
-                    <div className="card-body p-4 text-center ">
-                      <h4 className="card-title">Complete Edition</h4>
-                      <p className="lead card-subtitle">eBook download & all updates</p>
-                      <p className="my-3 display-5 text-primary fw-bold ">$30</p>
-                      <p className="card-text mx-5 text-muted d-none d-md-block ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quam!
-                      </p>
-                      <a href="#" className="btn btn-lg btn-outline-primary mt-3">
-                        Buy Now
-                      </a>
-                    </div>
-                  </div>
-                </div> */}
     </>
   );
 }

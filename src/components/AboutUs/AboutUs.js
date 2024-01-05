@@ -44,7 +44,7 @@ const AboutUs = () => {
             </div>
           </div>
           {/* Additional information */}
-          <div className="row justify-content-center align-items-center">
+          <div className="row justify-content-center align-items-center" id="why-us">
             <div className="col-md-5">
               <div className="text-center text-md-start ">
                 <h1 className="text-capitalize">
